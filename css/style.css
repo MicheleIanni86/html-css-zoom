@@ -60,13 +60,62 @@
     backdrop-filter: brightness(0.6);
   }
 
-
-
+  .share-icon {
+    color: greenyellow;
+  }
 
 /* FOOTER */
-
 .footer {
     height: 75px;
     background-color: #232323;
+    color: white;
   }
 
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .footer-left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+
+  .icon-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-text p {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+
+  .arrow-up{
+    font-size: 1rem;
+  }
+
+  .footer-center {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 24px;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .footer-right {
+    height: 100%;
+    backdrop-filter: brightness(0.6);    
+    color: red;
+    line-height: 75px;
+    text-align: center;
+    padding: 0px 30px;
+  }
+  
