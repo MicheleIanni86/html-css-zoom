@@ -46,8 +46,21 @@
 .video-card {
     width: 250px;
     height: 180px;
-    background-color: brown;
+    position: relative;
 }
+
+.labels-name {
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    color: white;
+    font-weight: bold;
+    padding: 4px 7px;
+    backdrop-filter: brightness(0.6);
+  }
+
+
 
 
 /* FOOTER */
