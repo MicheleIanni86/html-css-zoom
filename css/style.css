@@ -5,13 +5,10 @@
     box-sizing: border-box;
 }
 
-/* WEBAPP */
-.wrapper {
-    height: 100vh;
-}
 
+/* HEADER */
 .header {
-    height: 77px;
+    height: 40px;
     background-color: #000000;
 }
 .header-text {
@@ -28,3 +25,34 @@
     padding: 3px 7px;
     border-radius: 6px;
 }
+
+/* MAIN */
+
+.main-wrapper {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    height: calc(100vh - 40px - 75px);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 10px;
+    overflow: auto;
+}
+
+.video-card {
+    width: 250px;
+    height: 200px;
+    background-color: brown;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 75px;
+    background-color: #232323;
+  }
+
