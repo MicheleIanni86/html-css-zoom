@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+/* WEBAPP */
+.wrapper {
+    height: 100vh;
+}
+
+.header {
+    height: 77px;
+    background-color: #000000;
+}
+.header-text {
+    text-align: right;
+    color: white;
+    padding: 5px 5px;
+}
+
+.header-text > button {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
